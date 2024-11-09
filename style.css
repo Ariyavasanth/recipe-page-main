@@ -170,3 +170,13 @@ tr td:nth-child(2){
     color: var(--Brown_800);
     font-weight: 700;
 }
+
+@media only screen and  (max-width:320px)
+{
+    .wrapper{
+        margin:0rem 0rem;
+        width:100vw;
+        border-radius:0px;
+        
+    }
+}
